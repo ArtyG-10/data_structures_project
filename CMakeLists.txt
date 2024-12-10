@@ -25,9 +25,14 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         applicationpage.h applicationpage.cpp applicationpage.ui
         registrationpage.h registrationpage.cpp registrationpage.ui
-        game.h game.cpp
+
         users.h users.cpp
         md5.h md5.cpp
+        volleyball.png
+        running.png
+        gaming.png
+        reading.png
+        edm.png
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Final_Project APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

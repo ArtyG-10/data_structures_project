@@ -9,8 +9,9 @@ using std::string;
 
 class Users {
     struct User{
-        std::string username;
+        string username;
         string password_hash;
+        string firstname, lastname;
         User(string username_, string password_) {
             username = username_;
             set_password_hash(password_);

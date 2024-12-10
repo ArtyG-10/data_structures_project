@@ -89,14 +89,6 @@ build CMakeFiles/Final_Project.dir/registrationpage.cpp.obj: CXX_COMPILER__Final
   OBJECT_DIR = CMakeFiles\Final_Project.dir
   OBJECT_FILE_DIR = CMakeFiles\Final_Project.dir
 
-build CMakeFiles/Final_Project.dir/game.cpp.obj: CXX_COMPILER__Final_Project_unscanned_Debug C$:/Users/Arturo/Documents/Final_Project/game.cpp || cmake_object_order_depends_target_Final_Project
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\Final_Project.dir\game.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Final_Project_autogen/include -isystem C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore -isystem C:/Users/Arturo/Qt/6.8.1/mingw_64/include -isystem C:/Users/Arturo/Qt/6.8.1/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets -isystem C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\Final_Project.dir
-  OBJECT_FILE_DIR = CMakeFiles\Final_Project.dir
-
 build CMakeFiles/Final_Project.dir/users.cpp.obj: CXX_COMPILER__Final_Project_unscanned_Debug C$:/Users/Arturo/Documents/Final_Project/users.cpp || cmake_object_order_depends_target_Final_Project
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Final_Project.dir\users.cpp.obj.d
@@ -121,7 +113,7 @@ build CMakeFiles/Final_Project.dir/md5.cpp.obj: CXX_COMPILER__Final_Project_unsc
 #############################################
 # Link the executable Final_Project.exe
 
-build Final_Project.exe: CXX_EXECUTABLE_LINKER__Final_Project_Debug CMakeFiles/Final_Project.dir/Final_Project_autogen/mocs_compilation.cpp.obj CMakeFiles/Final_Project.dir/main.cpp.obj CMakeFiles/Final_Project.dir/mainwindow.cpp.obj CMakeFiles/Final_Project.dir/applicationpage.cpp.obj CMakeFiles/Final_Project.dir/registrationpage.cpp.obj CMakeFiles/Final_Project.dir/game.cpp.obj CMakeFiles/Final_Project.dir/users.cpp.obj CMakeFiles/Final_Project.dir/md5.cpp.obj | C$:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6Widgets.a C$:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6Gui.a C$:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6Core.a C$:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6EntryPoint.a || Final_Project_autogen Final_Project_autogen_timestamp_deps
+build Final_Project.exe: CXX_EXECUTABLE_LINKER__Final_Project_Debug CMakeFiles/Final_Project.dir/Final_Project_autogen/mocs_compilation.cpp.obj CMakeFiles/Final_Project.dir/main.cpp.obj CMakeFiles/Final_Project.dir/mainwindow.cpp.obj CMakeFiles/Final_Project.dir/applicationpage.cpp.obj CMakeFiles/Final_Project.dir/registrationpage.cpp.obj CMakeFiles/Final_Project.dir/users.cpp.obj CMakeFiles/Final_Project.dir/md5.cpp.obj | C$:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6Widgets.a C$:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6Gui.a C$:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6Core.a C$:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6EntryPoint.a || Final_Project_autogen Final_Project_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6Widgets.a  C:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6Gui.a  C:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Users/Arturo/Qt/6.8.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

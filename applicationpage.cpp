@@ -6,6 +6,8 @@ ApplicationPage::ApplicationPage(QWidget *parent)
     , ui(new Ui::ApplicationPage)
 {
     ui->setupUi(this);
+    //QPixmap pixmap("C:\Users\Arturo\Documents\Final_Project/volleyball.png");
+    //ui->volleyball->setPixmap(pixmap);
 }
 
 ApplicationPage::~ApplicationPage()
