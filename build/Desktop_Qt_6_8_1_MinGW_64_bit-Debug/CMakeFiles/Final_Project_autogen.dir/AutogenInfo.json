@@ -257,7 +257,8 @@
 		"C:/Users/Arturo/Qt/6.8.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"C:/Users/Arturo/Qt/6.8.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"C:/Users/Arturo/Qt/6.8.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
-		"C:/Users/Arturo/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake"
+		"C:/Users/Arturo/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
+		"C:/Users/Arturo/Documents/Final_Project/images.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/Arturo/Documents/Final_Project",
 	"CROSS_CONFIG" : false,
@@ -269,6 +270,12 @@
 			"C:/Users/Arturo/Documents/Final_Project/applicationpage.h",
 			"MU",
 			"EWIEGA46WW/moc_applicationpage.cpp",
+			null
+		],
+		[
+			"C:/Users/Arturo/Documents/Final_Project/connections.h",
+			"MU",
+			"EWIEGA46WW/moc_connections.cpp",
 			null
 		],
 		[
@@ -372,6 +379,7 @@
 			"MU",
 			null
 		],
+		[ "C:/Users/Arturo/Documents/Final_Project/connections.cpp", "MU", null ],
 		[ "C:/Users/Arturo/Documents/Final_Project/main.cpp", "MU", null ],
 		[ "C:/Users/Arturo/Documents/Final_Project/mainwindow.cpp", "MU", null ],
 		[ "C:/Users/Arturo/Documents/Final_Project/md5.cpp", "MU", null ],

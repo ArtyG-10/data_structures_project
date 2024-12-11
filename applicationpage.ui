@@ -30,7 +30,7 @@ background-color: rgb(85, 170, 127);</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>volleyball.png</pixmap>
+    <pixmap resource="images.qrc">:/Desktop/images/volleyball.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -49,7 +49,7 @@ background-color: rgb(85, 170, 127);</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>running.png</pixmap>
+    <pixmap resource="images.qrc">:/Desktop/images/running.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -94,7 +94,7 @@ background-color: rgb(85, 170, 127);</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>gaming.png</pixmap>
+    <pixmap resource="images.qrc">:/Desktop/images/gaming.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -113,7 +113,7 @@ background-color: rgb(85, 170, 127);</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>edm.png</pixmap>
+    <pixmap resource="images.qrc">:/Desktop/images/edm.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -132,7 +132,7 @@ background-color: rgb(85, 170, 127);</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>reading.png</pixmap>
+    <pixmap resource="images.qrc">:/Desktop/images/reading.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -177,11 +177,11 @@ background-color: rgb(85, 170, 127);</string>
     <string>reading</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
+  <widget class="QLineEdit" name="lineEdit_search">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>210</y>
+     <x>280</x>
+     <y>170</y>
      <width>113</width>
      <height>24</height>
     </rect>
@@ -190,8 +190,8 @@ background-color: rgb(85, 170, 127);</string>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>190</y>
+     <x>280</x>
+     <y>140</y>
      <width>111</width>
      <height>16</height>
     </rect>
@@ -203,8 +203,8 @@ background-color: rgb(85, 170, 127);</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>240</y>
+     <x>280</x>
+     <y>200</y>
      <width>101</width>
      <height>21</height>
     </rect>
@@ -229,7 +229,86 @@ background-color: rgb(85, 170, 127);</string>
     <string>Interests:</string>
    </property>
   </widget>
+  <widget class="QListWidget" name="listWidget_connections">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Connections:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_logout">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>270</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>230</y>
+     <width>111</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Read Last Message</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_message_to_send">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>170</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>200</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Type message above then
+ click on connection on
+ the left to send message.</string>
+   </property>
+  </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
  <connections/>
 </ui>

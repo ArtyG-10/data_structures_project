@@ -5,6 +5,7 @@
 #include "applicationpage.h"
 #include "registrationpage.h"
 #include "users.h"
+#include "connections.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -16,9 +17,10 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
     Users* users;
+    Connections* connections;
 
 public:
-    MainWindow(Users* users_, QWidget *parent = nullptr);
+    MainWindow(Users* users_, Connections* connections, QWidget *parent = nullptr);
 
     ~MainWindow();
 

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../Desktop/images/edm.png</file>
+        <file>../../Desktop/images/gaming.png</file>
+        <file>../../Desktop/images/reading.png</file>
+        <file>../../Desktop/images/running.png</file>
+        <file>../../Desktop/images/volleyball.png</file>
+    </qresource>
+</RCC>

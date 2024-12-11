@@ -32,7 +32,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         running.png
         gaming.png
         reading.png
-        edm.png
+
+        images.qrc
+        edm.png gaming.png reading.png running.png volleyball.png
+        connections.h connections.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Final_Project APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

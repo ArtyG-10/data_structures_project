@@ -1,10 +1,14 @@
 C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Final_Project_autogen/EWIEGA46WW/moc_applicationpage.cpp: C:/Users/Arturo/Documents/Final_Project/applicationpage.h \
   C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Final_Project_autogen/moc_predefs.h \
+  C:/Users/Arturo/Documents/Final_Project/connections.h \
+  C:/Users/Arturo/Documents/Final_Project/md5.h \
+  C:/Users/Arturo/Documents/Final_Project/users.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/q20functional.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/q20iterator.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/q20memory.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/q20type_traits.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/q23utility.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qalgorithms.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qanystringview.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qarraydata.h \
@@ -46,11 +50,13 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qhash.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qhashfunctions.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qiodevicebase.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qitemselectionmodel.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qiterable.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qiterator.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qlatin1stringview.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qline.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qlist.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qlogging.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qmalloc.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qmap.h \
@@ -71,6 +77,7 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qrect.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qrefcount.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qscopedpointer.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qscopeguard.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtCore/qset.h \
@@ -143,11 +150,27 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtGui/qtguiexports.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtGui/qtguiglobal.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtGui/qtransform.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/QDialog \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/QListWidgetItem \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractslider.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qlistview.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qlistwidget.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qrubberband.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qsizepolicy.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qslider.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qstyle.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qstyleoption.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qtabbar.h \
+  C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Users/Arturo/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -165,6 +188,8 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
@@ -174,6 +199,7 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
@@ -186,9 +212,12 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
@@ -196,6 +225,7 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
@@ -214,6 +244,7 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
@@ -226,6 +257,7 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_stack.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
@@ -257,8 +289,10 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
@@ -269,7 +303,10 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
@@ -278,11 +315,13 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stack \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf \
@@ -313,6 +352,8 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
@@ -357,4 +398,5 @@ C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Users/Arturo/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Users/Arturo/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/Arturo/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+  C:/Users/Arturo/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h

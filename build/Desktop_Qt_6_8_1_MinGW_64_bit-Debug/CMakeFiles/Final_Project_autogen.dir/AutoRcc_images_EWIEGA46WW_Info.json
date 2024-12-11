@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Final_Project_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Arturo/Documents/Final_Project",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Arturo/Documents/Final_Project",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Final_Project_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/Arturo/Desktop/images/volleyball.png",
+		"C:/Users/Arturo/Desktop/images/running.png",
+		"C:/Users/Arturo/Desktop/images/gaming.png",
+		"C:/Users/Arturo/Desktop/images/edm.png",
+		"C:/Users/Arturo/Desktop/images/reading.png"
+	],
+	"LOCK_FILE" : "C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/Final_Project_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "C:/Users/Arturo/Qt/6.8.1/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/Arturo/Documents/Final_Project/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/Final_Project_autogen.dir/AutoRcc_images_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/Arturo/Documents/Final_Project/images.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

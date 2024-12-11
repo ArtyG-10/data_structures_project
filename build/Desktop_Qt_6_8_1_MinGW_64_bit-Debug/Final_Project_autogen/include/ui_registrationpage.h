@@ -34,6 +34,8 @@ public:
         if (RegistrationPage->objectName().isEmpty())
             RegistrationPage->setObjectName("RegistrationPage");
         RegistrationPage->resize(400, 300);
+        RegistrationPage->setStyleSheet(QString::fromUtf8("\n"
+"background-color: rgb(85, 170, 127);"));
         label = new QLabel(RegistrationPage);
         label->setObjectName("label");
         label->setGeometry(QRect(80, 90, 71, 16));

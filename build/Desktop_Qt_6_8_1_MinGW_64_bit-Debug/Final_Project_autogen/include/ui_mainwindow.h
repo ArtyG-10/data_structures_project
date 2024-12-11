@@ -16,7 +16,6 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QVBoxLayout>
@@ -39,19 +38,20 @@ public:
     QHBoxLayout *horizontalLayout_2;
     QLabel *label_2;
     QLineEdit *lineEdit_password;
-    QMenuBar *menubar;
+    QLabel *label_3;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->resize(470, 282);
+        MainWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 170, 127);"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         groupBox = new QGroupBox(centralwidget);
         groupBox->setObjectName("groupBox");
-        groupBox->setGeometry(QRect(319, 29, 201, 181));
+        groupBox->setGeometry(QRect(150, 70, 201, 181));
         pushButton_login = new QPushButton(groupBox);
         pushButton_login->setObjectName("pushButton_login");
         pushButton_login->setGeometry(QRect(20, 120, 80, 24));
@@ -95,11 +95,11 @@ public:
 
         verticalLayout->addLayout(horizontalLayout_2);
 
+        label_3 = new QLabel(centralwidget);
+        label_3->setObjectName("label_3");
+        label_3->setGeometry(QRect(70, 10, 431, 41));
+        label_3->setStyleSheet(QString::fromUtf8("font: 15pt \"Segoe UI\";"));
         MainWindow->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 21));
-        MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
         MainWindow->setStatusBar(statusbar);
@@ -117,6 +117,7 @@ public:
         pushButton_register->setText(QCoreApplication::translate("MainWindow", "Register", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Username", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Password", nullptr));
+        label_3->setText(QCoreApplication::translate("MainWindow", "Welcome to the meet up social network!", nullptr));
     } // retranslateUi
 
 };
